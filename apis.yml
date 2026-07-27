@@ -1,7 +1,24 @@
 aid: hearth
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hearth.png
 name: Hearth
-description: Hearth is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Hearth is a business-management platform for residential home-improvement
+  contractors and trades professionals. It bundles customer financing (a marketplace
+  of 18+ lenders with $0 dealer fees), quotes and estimates, digital contracts and
+  e-signature, invoicing and payments, client management, and scheduling, together
+  with Harper, a 24/7 AI receptionist that answers calls, handles follow-ups, and
+  creates social content. Hearth serves 16+ residential contracting verticals including
+  roofing, HVAC, plumbing, landscaping, fencing, and flooring, and is backed by 8vc.
 url: https://raw.githubusercontent.com/api-evangelist/hearth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Contractors
+- Home Improvement
+- Financing
+- Payments
+- Invoicing
+- Scheduling
+- Field Service
+- AI Assistant
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,30 @@ maintainers:
 common:
 - type: Website
   url: https://gethearth.com
+- type: Pricing
+  url: https://gethearth.com/pricing/
+- type: Blog
+  url: https://gethearth.com/blog/
+- type: Support
+  url: https://help.gethearth.com
+- type: TermsOfService
+  url: https://gethearth.com/terms/
+- type: PrivacyPolicy
+  url: https://gethearth.com/privacy-policy/
+- type: SignUp
+  url: https://gethearth.com/signup
+- type: Login
+  url: https://app.gethearth.com/login
+- type: Security
+  url: https://gethearth.com/security-disclosure/
+- type: VulnerabilityDisclosure
+  url: security/hearth-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/hearth-domain-security.yml
+- type: LLMsTxt
+  url: llms/hearth-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

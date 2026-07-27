@@ -1,0 +1,18 @@
+# Hearth
+
+> Hearth is a business-management platform for residential home-improvement contractors and trades professionals — customer financing (18+ lender marketplace, $0 dealer fees), quotes and estimates, digital contracts and e-signature, invoicing and payments, client management, scheduling, and Harper, a 24/7 AI receptionist. Serves 16+ contracting verticals (roofing, HVAC, plumbing, landscaping, fencing, flooring). Backed by 8vc. No public developer API is published at this time.
+
+## Product
+- [Hearth](https://gethearth.com): Company home page and product overview.
+- [Pricing](https://gethearth.com/pricing/): Pro, Pro + Harper, and Enterprise plans.
+- [Sign Up](https://gethearth.com/signup): Create a contractor account / request a demo.
+- [Login](https://app.gethearth.com/login): Application login.
+
+## Docs
+- [Help Center](https://help.gethearth.com): Support and product documentation.
+- [Blog](https://gethearth.com/blog/): Contractor business content.
+
+## Legal & Security
+- [Terms of Service](https://gethearth.com/terms/)
+- [Privacy Policy](https://gethearth.com/privacy-policy/)
+- [Security Disclosure](https://gethearth.com/security-disclosure/): Responsible disclosure policy and bug bounty (up to USD $1,000).
